@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+.card{
+    border: 0;
+    margin-top: 40px;
+}
+.icon-body{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+} 
+.portfolio-img{
+    overflow: hidden;
+}
+
+.portfolio-img img{
+    
+    transition: all 1.5s;
+}
+
+.Using .card:hover .portfolio-img img{
+
+    transform: scale(1.5,1.5);
+
+}
+
+.portfolio-Using{
+    font-size: 48px;
+}
+
+
+.Using .paragraph{
+    font-size: 19px;
+    color:gray;
+}
+
+.Using-p{
+    font-size: 23px;
+}
+
+.Using-par{
+
+    font-size: 18px;
+
+}

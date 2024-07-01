@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.SectionOne .first-section #carouselExampleIndicators{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}.SectionOne .first-section h1{
+    font-size: 65px;
+    width: 100%;
+}.SectionOne .first-section p{
+    font-size: 18px;
+}.SectionOne .first-section button{
+    font-size: 14px;
+}
+
+.SectionOne .first-section  #carouselExampleIndicators .carousel-indicator{
+    top: 0;
+} 
+
+
+
+.SectionOne .first-section #carouselExampleIndicators .carousel-inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.SectionOne .first-section #carouselExampleIndicators .carousel-inner .carousel-item {
+    position: relative;
+    height: 100%;
+    width: 100%;
+   
+    background-image:linear-gradient(#0009,#0009) ,url('./P4fum5fiSvCyj8V3QNot6A.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.SectionOne .first-section #carouselExampleIndicators .carousel-inner .carousel-item .info-home{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    text-align: center;
+
+   
+}
+
+.SectionOne .first-section #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2) {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(#0009,#0009) ,url('./bg-image-29.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+       
+}
+
+.SectionOne .first-section #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2) .info-home{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    text-align: center;
+   
+
+   
+}
+
+.SectionOne .first-section .btn-more{
+    transition: all 0.2s;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #00c3da;
+    
+}.SectionOne .first-section .btn-more:hover{
+    transform: translateY(-1px);
+    background-color: #00d5ee;
+    color: #fff;
+}
+.SectionOne .first-section .btn-contact{
+    color: black;
+    background-color: #fff;
+    padding: 10px 30px;
+    transition: all 0.2s;
+}
+.SectionOne .first-section .btn-contact:hover{
+    color: #fff;
+    background-color: #000;
+    transform: translate(0px,-1px);
+}
+
+
+
+
+

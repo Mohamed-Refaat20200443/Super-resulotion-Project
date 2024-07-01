@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+.pricing .title h2{
+    color:rgba(169, 169, 169, 0.2);
+    font-size: 70px;
+}
+.l-teams{
+    transform: translate(0px,-15px);
+}
+.pricing .title .title-layer-teams {
+    font-size: 38px;
+}
+.pricing h4 {
+
+    font-size: 18px;
+    margin-block: 10px;
+
+}
+.pricing{
+    background-color: #f7f7f7;
+}
+.gold-pricing{
+    transform: translate(0px,-30px);
+}
+
+
+
+
+.a-princing h4{
+    font-size: 13px;
+}
+.b-pricing sup{
+    font-size: 30px;
+}
+.b-pricing h2{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -3px;
+   
+
+}
+
+.c-pricing ul::before{
+    content: "";
+    width: 20px;
+    background-color: #626262;
+    height: 1px;
+    box-sizing: border-box;
+}
+
+hr{
+    border: 1px solid #000;
+    width: 150px;
+    
+    
+}
+
+.pricing button{
+    transition: all 0.2s;
+    color: #fff;
+    background-color: #00c3da;
+    
+}
+.pricing button:hover{
+    transform: translateY(-1px);
+    background-color: #00d5ee;
+    color: #fff;
+}
